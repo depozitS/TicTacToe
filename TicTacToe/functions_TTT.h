@@ -186,6 +186,7 @@ int play( int map[], int counter) {
 	}
 	else {
 		//ничья
+		system("cls");
 		return 0;
 	}
 	return play(map,counter);
